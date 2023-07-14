@@ -11,7 +11,7 @@ body{
     background-size: cover;
     overflow: hidden;
     font-family: 'Poppins',sans-serif;
-    height: 100%;
+    height: 100vh;
     
 }
 
@@ -61,7 +61,7 @@ color: #fff;
 .current-info .other{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding:5px 20px;
     background: rgba(74, 74, 75, 0.6);
     border-radius: 10px;
     margin: 0 10px;
@@ -79,7 +79,7 @@ color: #fff;
 
 .future-info{
     background: rgb(24,24,27,0.8);
-    padding: 25px;
+    padding: 10px;
     position: fixed;
     bottom: 0;
     display: flex;
@@ -88,6 +88,8 @@ color: #fff;
     align-items: center;
     justify-content: center;
     overflow-y: hidden;
+    
+    
     
 }
 
@@ -102,7 +104,7 @@ color: #fff;
     justify-content: center;
     border: 1px solid #eee;
     border-radius: 10px;
-    padding: 50px 40px;
+    padding: 20px 40px;
     background: rgba(68, 67, 67, 0.2);
     box-shadow: 5px 5px 5px rgb(123, 121, 121);
 
